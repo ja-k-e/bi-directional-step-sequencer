@@ -343,7 +343,7 @@ class ModNodes {
         e.preventDefault();
         this.$save.innerHTML = '';
         let output = this.save();
-        this.$link.setAttribute('href', `//codepen.io/jakealbaugh/full/xqVrvE?d=${output}`);
+        this.$link.setAttribute('href', `//bdss.jake.fun?d=${output}`);
         this.$link.innerHTML = 'Get Url';
       });
 
